@@ -307,12 +307,12 @@ def validate_service_url(client: ArcGISOnlineClient, url: str, service_name: str
 def main():
     """Main function"""
     
-    if not os.path.exists('.env'):
-        print("❌ .env file not found!")
-        print("Please create a .env file based on env_template")
-        print("Copy env_template to .env and update with your actual values:")
-        print("  cp env_template .env")
-        return
+    # if not os.path.exists('.env'):
+    #     print("❌ .env file not found!")
+    #     print("Please create a .env file based on env_template")
+    #     print("Copy env_template to .env and update with your actual values:")
+    #     print("  cp env_template .env")
+    #     return
     
     required_vars = ['GSS_PROJECT_URL', 'GSS_PROJECTS_TABLE_URL', 'GSS_RESOURCES_TABLE_URL']
     missing_vars = [var for var in required_vars if not os.getenv(var)]
