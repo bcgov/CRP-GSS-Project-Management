@@ -1,4 +1,4 @@
-#🦌 Caribou Portal - PMBOK Project Portfolio
+# 🦌 Caribou Portal - PMBOK Project Portfolio
 
 ## Description
 This app is for the purpose of coordinating/managing CRP project requests. It is built off of python and NiceGUI and writes to JSON files stored on S3. The idea is to have a one stop shop for CRP projects, related data and apps. Currently it pulls notes from a local Dendron vault but will be changed in the future so all can view the notes. 
