@@ -7,5 +7,5 @@ This app is for the purpose of coordinating/managing CRP project requests. It is
 To run this app currently you all you need to do is the run the script **pmbok_project_viewer_list view_s3.py** and open the local port 8080
 
 ## To Run Container
-``` podman build -t caribou-portal ```
+``` podman build -t caribou-portal ```<br>
 ``` podman run -p 8080:8080 caribou-portal ```
